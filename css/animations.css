@@ -1,0 +1,49 @@
+/* Базовые классы для JS */
+.reveal {
+    opacity: 0;
+    will-change: transform, opacity;
+}
+
+/* Fade In */
+.reveal.fade-in.active {
+    animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Slide Up */
+.reveal.slide-up {
+    transform: translateY(40px);
+}
+.reveal.slide-up.active {
+    animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Задержки (Delays) */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* Keyframes */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация переливов фона */
+@keyframes float {
+    0% { transform: translate(0, 0) scale(1); }
+    33% { transform: translate(4%, 6%) scale(1.05); }
+    66% { transform: translate(-3%, 8%) scale(0.95); }
+    100% { transform: translate(0, 0) scale(1); }
+}

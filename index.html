@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALETOV | Light & Sound Production в Москве</title>
+    <meta name="description" content="Профессиональный прокат сценического оборудования, звука, света и LED-экранов в Москве. Техническое обеспечение мероприятий.">
+    <meta name="keywords" content="прокат звука, прокат света, LED экраны, сценические конструкции, техническое сопровождение, Москва">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="VALETOV | Light & Sound Production">
+    <meta property="og:description" content="Премиальное техническое обеспечение мероприятий.">
+    <meta property="og:type" content="website">
+    
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Подключаем красивый рукописный шрифт для подписи -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Анимированный переливающийся фон (Сценический свет) -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container header-inner">
+            <!-- Бургер-кнопка для мобилок -->
+            <button class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="header-nav left-nav">
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#services" class="nav-link">Услуги</a>
+            </nav>
+            
+            <a href="#hero" class="logo">
+                <span class="logo-main">VALETOV</span>
+                <span class="logo-sub">light & sound production</span>
+            </a>
+            
+            <nav class="header-nav right-nav">
+                <a href="#gallery" class="nav-link">Проекты</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+        </div>
+
+        <!-- Мобильное full-screen меню -->
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="#about" class="nav-link">О нас</a>
+            <a href="#services" class="nav-link">Услуги</a>
+            <a href="#gallery" class="nav-link">Проекты</a>
+            <a href="#faq" class="nav-link">FAQ</a>
+            <a href="#contact" class="btn btn-outline" style="margin-top: 24px;">Обсудить проект</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Первый экран (Hero) -->
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title reveal slide-up">Искусство<br>в каждой детали<br>вашего события</h1>
+                <p class="hero-desc reveal fade-in delay-1">
+                    Обеспечиваем техническую безупречность мероприятий. 
+                    Профессиональный звук, свет и сценические конструкции.
+                </p>
+                <div class="hero-actions reveal fade-in delay-2">
+                    <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+                    <a href="#services" class="btn btn-text">Оборудование и услуги</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- О компании -->
+        <section class="about section-padding" id="about">
+            <div class="container about-grid">
+                <div class="section-heading reveal slide-up">
+                    <h2>О компании</h2>
+                    <!-- Заглушка для фото клиента (вертикальная) -->
+                    <div class="about-photo">
+                        <!-- Заменить src на реальное фото -->
+                        <img src="assets/images/client-photo-stub.jpg" alt="Основатель компании">
+                    </div>
+                </div>
+                <div class="about-content reveal fade-in delay-1">
+                    <p class="text-large">Мы — команда технических специалистов, создающая надежный фундамент для концертов, корпоративных событий и частных мероприятий.</p>
+                    <p class="text-muted">Наша философия строится на трех принципах: строгая дисциплина, современный парк оборудования и эстетика технических решений. Мы не просто привозим технику, мы проектируем среду, в которой ваше событие раскрывается на 100%.</p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <h3>Высокий стандарт</h3>
+                            <p>Регулярное обслуживание парка оборудования и контроль качества.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Точность</h3>
+                            <p>Соблюдение таймингов и четкая логистика на площадке.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+                <div class="section-heading reveal slide-up">
+                    <h2>Направления</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal fade-in">
+                        <h3>Звуковое оборудование</h3>
+                        <p>Линейные массивы, бэклайн, радиосистемы и микшерные пульты райдерного уровня.</p>
+                    </div>
+                    <div class="service-card reveal fade-in delay-1">
+                        <h3>Световое оборудование</h3>
+                        <p>Динамические приборы, архитектурный свет и системы управления для создания нужной атмосферы.</p>
+                    </div>
+                    <div class="service-card reveal fade-in delay-2">
+                        <h3>Сценические конструкции</h3>
+                        <p>Подиумы, элеваторы и фермы. Надежный монтаж с учетом всех норм безопасности.</p>
+                    </div>
+                    <div class="service-card reveal fade-in delay-3">
+                        <h3>LED-экраны</h3>
+                        <p>Модульные экраны высокого разрешения для трансляций и визуального оформления.</p>
+                    </div>
+                    <div class="service-card reveal fade-in delay-4">
+                        <h3>Технический продакшн</h3>
+                        <p>Разработка 3D-макета, расчет мощностей и полное сопровождение от монтажа до демонтажа.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея -->
+        <section class="gallery section-padding" id="gallery">
+            <div class="container">
+                <div class="section-heading reveal slide-up">
+                    <h2>Проекты</h2>
+                </div>
+                <!-- 11 элементов: 4 видео, 7 фото -->
+                <div class="gallery-grid">
+                    
+                    <!-- Видео 1 -->
+                    <!-- Заменить src на реальное видео -->
+                    <div class="gallery-item reveal fade-in">
+                        <video src="assets/videos/IMG_4923.mp4" muted loop playsinline preload="metadata"></video>
+                    </div>
+                    
+                    <!-- Фото 1 -->
+                    <!-- Заменить src на реальное фото -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/IMG_6117.webp" alt="Проект 1">
+                    </div>
+
+                    <!-- Фото 2 -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/IMG_6119.webp" alt="Проект 2">
+                    </div>
+
+                    <!-- Видео 2 -->
+                    <div class="gallery-item reveal fade-in">
+                        <video src="assets/videos/IMG_4984.mp4" muted loop playsinline preload="metadata"></video>
+                    </div>
+
+                    <!-- Фото 3 -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/IMG_4005.webp" alt="Проект 3">
+                    </div>
+
+                    <!-- Фото 4 -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/redbull.webp" alt="Проект 4">
+                    </div>
+
+                    <!-- Видео 3 -->
+                    <div class="gallery-item reveal fade-in">
+                        <video src="assets/videos/IMG_5617.mp4" muted loop playsinline preload="metadata"></video>
+                    </div>
+
+                    <!-- Фото 5 -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/shater.webp" alt="Проект 5">
+                    </div>
+
+                    <!-- Фото 6 -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/usadba.webp" alt="Проект 6">
+                    </div>
+
+                    <!-- Видео 4 -->
+                    <div class="gallery-item reveal fade-in">
+                        <video src="assets/videos/IMG_4922.mp4" muted loop playsinline preload="metadata"></video>
+                    </div>
+
+                    <!-- Фото 7 -->
+                    <div class="gallery-item reveal fade-in">
+                        <img src="assets/images/IMG_4004.webp" alt="Проект 7">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq section-padding" id="faq">
+            <div class="container faq-grid">
+                <div class="section-heading reveal slide-up">
+                    <h2>Частые вопросы</h2>
+                </div>
+                <div class="faq-list reveal fade-in delay-1">
+                    <div class="faq-item">
+                        <button class="faq-question">Вы работаете только в Москве?</button>
+                        <div class="faq-answer">
+                            <p>Основная база находится в Москве, однако мы готовы обсуждать логистику и техническое обеспечение проектов в других регионах по предварительному согласованию.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Включена ли работа техников в стоимость?</button>
+                        <div class="faq-answer">
+                            <p>Мы рассчитываем смету прозрачно. Стоимость аренды оборудования и работа профильных специалистов (звукорежиссер, художник по свету, техники сцены) выставляются в понятных позициях.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Как быстро нужно бронировать даты?</button>
+                        <div class="faq-answer">
+                            <p>Для гарантии наличия необходимого оборудования в высокий сезон рекомендуем обращаться за 3-4 недели до мероприятия. Для срочных проектов мы также стараемся находить оперативные решения.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты и Форма -->
+        <section class="contact section-padding" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info reveal slide-up">
+                    <h2>Готовы начать<br>сотрудничество?</h2>
+                    <p class="text-muted">Оставьте заявку, и мы свяжемся с вами для обсуждения технических деталей и расчета сметы.</p>
+                </div>
+                
+                <form class="contact-form reveal fade-in delay-1" id="requestForm">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" required placeholder=" ">
+                        <label for="name">Имя</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" id="phone" required placeholder=" ">
+                        <label for="phone">Телефон</label>
+                    </div>
+                    <div class="form-group">
+                        <!-- Кастомный анимированный селект -->
+                        <div class="custom-select-wrapper" id="customSelect">
+                            <div class="custom-select-trigger">
+                                <span>Выберите направление</span>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="custom-options">
+                                <span class="custom-option" data-value="Звук">Звуковое оборудование</span>
+                                <span class="custom-option" data-value="Свет">Световое оборудование</span>
+                                <span class="custom-option" data-value="Сцена">Сценические конструкции</span>
+                                <span class="custom-option" data-value="Экраны">LED-экраны</span>
+                                <span class="custom-option" data-value="Комплекс">Комплексное обеспечение</span>
+                            </div>
+                        </div>
+                        <input type="hidden" name="service" id="serviceInput" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="4" placeholder=" "></textarea>
+                        <label for="message">Детали мероприятия (дата, площадка, пожелания)</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить запрос</button>
+                    <div class="form-status" id="formStatus"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-main">VALETOV</span>
+                    <span class="logo-sub">LIGHT & SOUND PRODUCTION</span>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <a href="tel:+79264398906" class="footer-link">+7 (926) 439-89-06</a>
+                <a href="mailto:info@valetov.ru" class="footer-link">info@valetov.ru</a>
+                <a href="https://t.me/spqpqs" target="_blank" class="footer-link">Telegram</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> VALETOV Production. Все права защищены.</p>
+                <p>Москва</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

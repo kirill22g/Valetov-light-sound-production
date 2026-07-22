@@ -1,0 +1,65 @@
+/* Tablet (1024px) */
+@media (max-width: 1024px) {
+    .header-inner { 
+        display: flex; 
+        justify-content: center; /* Четко центрируем логотип */
+        align-items: center; 
+    }
+    .header-nav { 
+        display: none; /* Полностью скрываем десктопное меню */
+    }
+    .burger-menu {
+        display: block; /* Показываем иконку бургера */
+    }
+    h2 { font-size: 3rem; }
+    .about-grid, .contact-grid { gap: 48px; }
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+}
+
+/* Mobile / Small Tablet (768px) */
+@media (max-width: 768px) {
+    :root {
+        --section-spacing: 80px;
+    }
+    
+    /* Уменьшаем логотип, чтобы не ломать верстку на мобилках */
+    .logo-main { font-size: 1.8rem; }
+    .logo-sub { font-size: 1rem; }
+    
+    h2 { font-size: 2.5rem; }
+    
+    .hero-actions {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .btn { width: 100%; }
+    
+    .about-grid { grid-template-columns: 1fr; gap: 32px; }
+    .about-photo { 
+        max-width: 100%; 
+        margin-top: 32px; 
+    }
+    
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    
+    .contact-grid { grid-template-columns: 1fr; }
+    
+    .footer-contacts { flex-direction: column; gap: 16px; }
+}
+
+/* Small Mobile (375px & 320px) */
+@media (max-width: 480px) {
+    h2 { font-size: 2rem; }
+    
+    .services-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    
+    .features { grid-template-columns: 1fr; }
+    
+    .hero-title { font-size: 2.5rem; }
+    .hero { padding-top: 100px; }
+    
+    .footer-bottom { flex-direction: column; gap: 16px; }
+}

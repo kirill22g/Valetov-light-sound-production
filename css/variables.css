@@ -1,0 +1,35 @@
+:root {
+    /* Основная палитра */
+    --color-black: #030303;
+    --color-graphite: #0f0f11;
+    --color-dark-gray: #1a1a1c;
+    
+    /* Текст */
+    --color-text-main: #ffffff;
+    --color-text-muted: #8a8a8f;
+    
+    /* Акцент (Кобальтовый синий / Ice Blue) */
+    --color-accent: #1f64ff;
+    --color-accent-hover: #4a82ff;
+    --color-accent-glow: rgba(31, 100, 255, 0.2);
+    /* Дополнительные цвета для переливов на фоне */
+    --color-purple: #7000ff;
+    --color-cyan: #00e5ff;
+
+    /* Элементы UI */
+    --border-radius-large: 24px;
+    --border-radius-btn: 12px;
+    --border-radius-input: 16px;
+    
+    --border-color: rgba(255, 255, 255, 0.08);
+    
+    /* Типографика */
+    --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
+    /* Отступы */
+    --container-padding: 5%;
+    --section-spacing: 120px;
+    
+    /* Транзиции */
+    --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
