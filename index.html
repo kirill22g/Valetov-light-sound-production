@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VALETOV | Light & Sound Production в Москве</title>
-    <meta name="description" content="Профессиональный прокат сценического оборудования, звука, света и LED-экранов в Москве. Техническое обеспечение мероприятий.">
-    <meta name="keywords" content="прокат звука, прокат света, LED экраны, сценические конструкции, техническое сопровождение, Москва">
+    <title>Аренда сценического оборудования в Москве | Valetov Production</title>
+    <meta name="description" content="Профессиональная аренда звукового и светового оборудования, прокат LED экранов и сцен в Москве. Полное техническое обеспечение мероприятий любого масштаба.">
+    <meta name="keywords" content="аренда звукового оборудования, прокат света, аренда LED экранов, аренда сцены, техническое обеспечение мероприятий, Москва, Valetov">
+    <link rel="canonical" href="https://valetov.pro/">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="VALETOV | Light & Sound Production">
-    <meta property="og:description" content="Премиальное техническое обеспечение мероприятий.">
+    <meta property="og:title" content="Аренда сценического оборудования в Москве | Valetov Production">
+    <meta property="og:description" content="Профессиональный прокат звука, света и LED экранов. Техническое обеспечение мероприятий под ключ.">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://valetov.pro/">
+    <meta property="og:image" content="https://valetov.pro/assets/images/og-image.jpg">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Аренда сценического оборудования в Москве | Valetov Production">
+    <meta name="twitter:description" content="Прокат звука, света и экранов для мероприятий в Москве. Опыт 450+ проектов.">
+    <meta name="twitter:image" content="https://valetov.pro/assets/images/og-image.jpg">
     
     <!-- Подключение CSS -->
     <link rel="stylesheet" href="css/variables.css">
@@ -19,6 +28,89 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Подключаем красивый рукописный шрифт для подписи -->
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Valetov Production",
+      "image": "https://valetov.pro/assets/images/og-image.jpg",
+      "@id": "https://valetov.pro/",
+      "url": "https://valetov.pro/",
+      "telephone": "+79264398906",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Дорожная, д. 8, корп. 1",
+        "addressLocality": "Москва",
+        "postalCode": "117545",
+        "addressCountry": "RU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 55.6267,
+        "longitude": 37.6183
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://t.me/spqpqs"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://valetov.pro/",
+      "name": "Valetov Production",
+      "description": "Аренда сценического оборудования в Москве",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Valetov Production"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Вы работаете только в Москве?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Основная база находится в Москве, однако мы готовы обсуждать логистику и техническое обеспечение проектов в других регионах по предварительному согласованию."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Включена ли работа техников в стоимость?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Мы рассчитываем смету прозрачно. Стоимость аренды оборудования и работа профильных специалистов (звукорежиссер, художник по свету, техники сцены) выставляются в понятных позициях."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Как быстро нужно бронировать даты?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Для гарантии наличия необходимого оборудования в высокий сезон рекомендуем обращаться за 3-4 недели до мероприятия."
+        }
+      }]
+    }
+    </script>
 </head>
 <body>
 
@@ -33,7 +125,7 @@
     <header class="header">
         <div class="container header-inner">
             <!-- Бургер-кнопка для мобилок -->
-            <button class="burger-menu" id="burgerMenu">
+            <button class="burger-menu" id="burgerMenu" aria-label="Открыть меню">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -56,7 +148,7 @@
         </div>
 
         <!-- Мобильное full-screen меню -->
-        <nav class="mobile-nav" id="mobileNav">
+        <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
             <a href="#about" class="nav-link">О нас</a>
             <a href="#services" class="nav-link">Услуги</a>
             <a href="#gallery" class="nav-link">Проекты</a>
@@ -69,10 +161,9 @@
         <!-- Первый экран (Hero) -->
         <section class="hero" id="hero">
             <div class="container hero-content">
-                <h1 class="hero-title reveal slide-up">Искусство<br>в каждой детали<br>вашего события</h1>
+                <h1 class="hero-title reveal slide-up">Аренда сценического оборудования в Москве</h1>
                 <p class="hero-desc reveal fade-in delay-1">
-                    Обеспечиваем техническую безупречность мероприятий. 
-                    Профессиональный звук, свет и сценические конструкции.
+                    Профессиональный прокат звука, света и LED-экранов. Техническое обеспечение мероприятий любого масштаба: от частных праздников до крупных концертов.
                 </p>
                 <div class="hero-actions reveal fade-in delay-2">
                     <a href="#contact" class="btn btn-primary">Оставить заявку</a>
@@ -85,25 +176,22 @@
         <section class="about section-padding" id="about">
             <div class="container about-grid">
                 <div class="section-heading reveal slide-up">
-                    <h2>О компании</h2>
-                    <!-- Заглушка для фото клиента (вертикальная) -->
+                    <h2>Александр Валетов</h2>
                     <div class="about-photo">
-                        <!-- Заменить src на реальное фото -->
-                        <img src="assets/images/client-photo-stub.jpg" alt="Основатель компании">
+                        <img src="assets/images/client-photo-stub.jpg" alt="Александр Валетов — специалист по техническому обеспечению мероприятий" title="Александр Валетов">
                     </div>
                 </div>
                 <div class="about-content reveal fade-in delay-1">
-                    <p class="text-large">Мы — команда технических специалистов, создающая надежный фундамент для концертов, корпоративных событий и частных мероприятий.</p>
-                    <p class="text-muted">Наша философия строится на трех принципах: строгая дисциплина, современный парк оборудования и эстетика технических решений. Мы не просто привозим технику, мы проектируем среду, в которой ваше событие раскрывается на 100%.</p>
+                    <p class="text-large">Меня зовут Александр Валетов! Я специалист в технической сфере проката. Опыт 6 лет, 450+ проектов за спиной. Помогу собрать вам ТЗ и смету на ваше мероприятие.</p>
                     
                     <div class="features">
                         <div class="feature-item">
-                            <h3>Высокий стандарт</h3>
-                            <p>Регулярное обслуживание парка оборудования и контроль качества.</p>
+                            <h3>Команда</h3>
+                            <p>Наши технические специалисты имеют высокую квалификацию в своих направлениях.</p>
                         </div>
                         <div class="feature-item">
-                            <h3>Точность</h3>
-                            <p>Соблюдение таймингов и четкая логистика на площадке.</p>
+                            <h3>Технический продакшн</h3>
+                            <p>Мы не просто предоставляем оборудование в аренду, а создаем готовую техническую среду для вашего успеха.</p>
                         </div>
                     </div>
                 </div>
@@ -114,28 +202,51 @@
         <section class="services section-padding" id="services">
             <div class="container">
                 <div class="section-heading reveal slide-up">
-                    <h2>Направления</h2>
+                    <h2>Направления и оборудование</h2>
                 </div>
                 <div class="services-grid">
-                    <div class="service-card reveal fade-in">
-                        <h3>Звуковое оборудование</h3>
-                        <p>Линейные массивы, бэклайн, радиосистемы и микшерные пульты райдерного уровня.</p>
+                    <article class="service-card reveal fade-in">
+                        <h3>Аренда звукового оборудования</h3>
+                        <p>Линейные массивы, бэклайн, радиосистемы, сабвуферы и микшерные пульты райдерного уровня. Профессиональный звук для мероприятий любого масштаба.</p>
+                    </article>
+                    <article class="service-card reveal fade-in delay-1">
+                        <h3>Аренда светового оборудования</h3>
+                        <p>Динамические приборы (Moving Head), архитектурная подсветка, концертный свет и системы управления GrandMA для создания уникальной атмосферы.</p>
+                    </article>
+                    <article class="service-card reveal fade-in delay-2">
+                        <h3>Аренда сцены и конструкций</h3>
+                        <p>Подиумы, элеваторы, фермы и сценические комплексы. Надежный монтаж конструкций с соблюдением всех норм техники безопасности.</p>
+                    </article>
+                    <article class="service-card reveal fade-in delay-3">
+                        <h3>Аренда LED-экранов</h3>
+                        <p>Модульные светодиодные экраны высокого разрешения для трансляций, презентаций и эффектного визуального оформления вашего события.</p>
+                    </article>
+                    <article class="service-card reveal fade-in delay-4">
+                        <h3>Техническое сопровождение</h3>
+                        <p>Разработка 3D-макетов, расчет мощностей, логистика и полное сопровождение проекта от монтажа до финального демонтажа.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Почему выбирают нас -->
+        <section class="why-us section-padding">
+            <div class="container">
+                <div class="section-heading reveal slide-up">
+                    <h2>Почему выбирают Valetov Production</h2>
+                </div>
+                <div class="features">
+                    <div class="feature-item reveal fade-in">
+                        <h3>Опыт 450+ проектов</h3>
+                        <p>Мы успешно реализовали сотни мероприятий: от частных свадеб и корпоративов до масштабных фестивалей и городских праздников.</p>
                     </div>
-                    <div class="service-card reveal fade-in delay-1">
-                        <h3>Световое оборудование</h3>
-                        <p>Динамические приборы, архитектурный свет и системы управления для создания нужной атмосферы.</p>
+                    <div class="feature-item reveal fade-in delay-1">
+                        <h3>Профессиональный звук и свет</h3>
+                        <p>Используем только проверенное оборудование ведущих мировых брендов, которое регулярно проходит техническое обслуживание.</p>
                     </div>
-                    <div class="service-card reveal fade-in delay-2">
-                        <h3>Сценические конструкции</h3>
-                        <p>Подиумы, элеваторы и фермы. Надежный монтаж с учетом всех норм безопасности.</p>
-                    </div>
-                    <div class="service-card reveal fade-in delay-3">
-                        <h3>LED-экраны</h3>
-                        <p>Модульные экраны высокого разрешения для трансляций и визуального оформления.</p>
-                    </div>
-                    <div class="service-card reveal fade-in delay-4">
-                        <h3>Технический продакшн</h3>
-                        <p>Разработка 3D-макета, расчет мощностей и полное сопровождение от монтажа до демонтажа.</p>
+                    <div class="feature-item reveal fade-in delay-2">
+                        <h3>Работа под ключ</h3>
+                        <p>Берем на себя все этапы: от составления ТЗ и сметы до технической реализации и контроля на площадке.</p>
                     </div>
                 </div>
             </div>
@@ -151,60 +262,58 @@
                 <div class="gallery-grid">
                     
                     <!-- Видео 1 -->
-                    <!-- Заменить src на реальное видео -->
                     <div class="gallery-item reveal fade-in">
-                        <video src="assets/videos/IMG_4923.mp4" muted loop playsinline preload="metadata"></video>
+                        <video src="assets/videos/IMG_4923.mp4" muted loop playsinline preload="metadata" loading="lazy" title="Техническое обеспечение концерта"></video>
                     </div>
                     
                     <!-- Фото 1 -->
-                    <!-- Заменить src на реальное фото -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/IMG_6117.webp" alt="Проект 1">
+                        <img src="assets/images/IMG_6117.webp" alt="Аренда светового оборудования на мероприятии" title="Прокат света" loading="lazy" width="600" height="400">
                     </div>
 
                     <!-- Фото 2 -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/IMG_6119.webp" alt="Проект 2">
+                        <img src="assets/images/IMG_6119.webp" alt="Установка LED экранов и звукового оборудования" title="Аренда LED экранов" loading="lazy" width="600" height="400">
                     </div>
 
                     <!-- Видео 2 -->
                     <div class="gallery-item reveal fade-in">
-                        <video src="assets/videos/IMG_4984.mp4" muted loop playsinline preload="metadata"></video>
+                        <video src="assets/videos/IMG_4984.mp4" muted loop playsinline preload="metadata" loading="lazy" title="Монтаж сценических конструкций"></video>
                     </div>
 
                     <!-- Фото 3 -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/IMG_4005.webp" alt="Проект 3">
+                        <img src="assets/images/IMG_4005.webp" alt="Профессиональный звук для корпоратива" title="Аренда звука" loading="lazy" width="600" height="400">
                     </div>
 
                     <!-- Фото 4 -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/redbull.webp" alt="Проект 4">
+                        <img src="assets/images/redbull.webp" alt="Техническое обеспечение спортивного мероприятия Red Bull" title="Прокат оборудования для мероприятий" loading="lazy" width="600" height="400">
                     </div>
 
                     <!-- Видео 3 -->
                     <div class="gallery-item reveal fade-in">
-                        <video src="assets/videos/IMG_5617.mp4" muted loop playsinline preload="metadata"></video>
+                        <video src="assets/videos/IMG_5617.mp4" muted loop playsinline preload="metadata" loading="lazy" title="Световое оформление свадьбы"></video>
                     </div>
 
                     <!-- Фото 5 -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/shater.webp" alt="Проект 5">
+                        <img src="assets/images/shater.webp" alt="Аренда оборудования для шатра" title="Технический продакшн" loading="lazy" width="600" height="400">
                     </div>
 
                     <!-- Фото 6 -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/usadba.webp" alt="Проект 6">
+                        <img src="assets/images/usadba.webp" alt="Сценическое оборудование в усадьбе" title="Аренда сцены" loading="lazy" width="600" height="400">
                     </div>
 
                     <!-- Видео 4 -->
                     <div class="gallery-item reveal fade-in">
-                        <video src="assets/videos/IMG_4922.mp4" muted loop playsinline preload="metadata"></video>
+                        <video src="assets/videos/IMG_4922.mp4" muted loop playsinline preload="metadata" loading="lazy" title="Работа звукорежиссера на площадке"></video>
                     </div>
 
                     <!-- Фото 7 -->
                     <div class="gallery-item reveal fade-in">
-                        <img src="assets/images/IMG_4004.webp" alt="Проект 7">
+                        <img src="assets/images/IMG_4004.webp" alt="Прокат концертного оборудования" title="Концертный звук и свет" loading="lazy" width="600" height="400">
                     </div>
 
                 </div>
@@ -250,11 +359,11 @@
                 
                 <form class="contact-form reveal fade-in delay-1" id="requestForm">
                     <div class="form-group">
-                        <input type="text" name="name" id="name" required placeholder=" ">
+                        <input type="text" name="name" id="name" required placeholder=" " aria-required="true">
                         <label for="name">Имя</label>
                     </div>
                     <div class="form-group">
-                        <input type="tel" name="phone" id="phone" required placeholder=" ">
+                        <input type="tel" name="phone" id="phone" required placeholder=" " aria-required="true">
                         <label for="phone">Телефон</label>
                     </div>
                     <div class="form-group">
@@ -296,7 +405,7 @@
             </div>
             <div class="footer-contacts">
                 <a href="tel:+79264398906" class="footer-link">+7 (926) 439-89-06</a>
-                <a href="mailto:info@valetov.ru" class="footer-link">info@valetov.ru</a>
+                <a href="mailto:Sasha747Valetoc@gmail.com" class="footer-link">Sasha747Valetoc@gmail.com</a>
                 <a href="https://t.me/spqpqs" target="_blank" class="footer-link">Telegram</a>
             </div>
             <div class="footer-bottom">
