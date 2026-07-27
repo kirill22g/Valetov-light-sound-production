@@ -1,7 +1,7 @@
 <?php
 // Измените этот email на вашу реальную почту
 $to = "csgotap777@gmail.com"; 
-$subject = "Новая заявка с сайта VALETOV Production";
+$subject = "Новая заявка с сайта Валетов Продакшн";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     

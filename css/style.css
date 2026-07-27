@@ -82,14 +82,15 @@ a {
     letter-spacing: 0.15em;
     line-height: 1;
     color: var(--color-text-main);
+    text-transform: uppercase;
 }
 
 .logo-sub {
     font-family: 'Caveat', cursive; /* Рукописный шрифт */
-    font-size: 1.4rem;
+    font-size: 1.8rem; /* Увеличили для лучшей читаемости кириллицы */
     color: var(--color-accent); /* Выделили цветом */
-    margin-top: -2px;
-    letter-spacing: 0.05em;
+    margin-top: -8px; /* Немного подняли, так как шрифт рукописный */
+    letter-spacing: 0.02em;
     font-weight: 500;
 }
 
